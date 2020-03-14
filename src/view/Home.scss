@@ -1,0 +1,23 @@
+.home{
+  width:1280px;
+  height:720px;
+  background:url("../web-data/homeBg.jpg");
+  background-size: cover;
+}
+
+.card{
+  border-radius: 5px;
+  //background: rgba(230,238,232,0.65);
+  box-shadow: 3px 3px 24px #ddd;
+}
+
+.gameBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  padding:0 16px;
+  height:100vh;
+  background: url(../web-data/bg-img/bg1.gif);
+  background-attachment: fixed;
+}
