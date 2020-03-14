@@ -1,10 +1,10 @@
 import React from 'react';
-import Home from "./view/Home";
+import Main from "./view/Main";
 import './App.scss';
 
 function App() {
   return <div className="App">
-        <Home/>
+        <Main/>
     </div>
 }
 
