@@ -1,23 +1,30 @@
 .home{
   width:1280px;
   height:720px;
-  background:url("../web-data/homeBg.jpg");
+  background:url("../web-data/img/homeBg.jpg");
   background-size: cover;
 }
 
 .card{
-  border-radius: 5px;
+  border-radius: 6px;
   //background: rgba(230,238,232,0.65);
   box-shadow: 3px 3px 24px #ddd;
 }
 
 .gameBox{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position:relative;
   padding:0 16px;
   height:100vh;
-  background: url(../web-data/bg-img/bg1.gif);
+  background: url(../web-data/img/bg1.gif);
   background-attachment: fixed;
+}
+
+.home-menu{
+  margin-top: 300px;
+  .y-btn{
+    margin-top:16px;
+    font-size: 32px;
+    font-family: 隶书;
+    letter-spacing: 6px;
+  }
 }

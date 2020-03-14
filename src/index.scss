@@ -1,3 +1,22 @@
 body{
   margin:0;
 }
+
+.flex{
+  display: flex;
+  &.y{
+    flex-direction: column;
+  }
+  &.center{
+    justify-content: center;
+    align-items: center;
+  }
+  //主轴居中
+  &.center-m{
+    justify-content: center;
+  }
+  //辅轴居中
+  &.center-a{
+    align-items: center;
+  }
+}
