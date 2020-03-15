@@ -28,3 +28,24 @@ body{
   background: rgba(230,238,232,0.65);
   box-shadow: 3px 3px 24px #ddd;
 }
+
+.lineBox{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+
+  box-sizing: border-box;
+  height: 180px;
+  padding: 8px 12px;
+  border: #a9b2a6 3px solid;
+  border-radius: 8px;
+  background: rgba(30,144,255,.64);
+  color:#dfdfdf;
+  font-size: 28px;
+  user-select: none;
+  cursor: pointer;
+  //font-weight: 600;
+  //-webkit-text-stroke: 1px #4f4f4f;
+  text-shadow: 1px 1px 0 #4f4f4f, -1px -1px 0 #4f4f4f;
+}
